@@ -7,7 +7,7 @@ module.exports.run = async (client, message, params, perms) => {
     
     const embed = new discord.MessageEmbed()
     .setTitle('Telegram Adresimiz')
-    .setAuthor('deneme')
+    .setAuthor('Azgın Penguenler')
     .setURL('https//t.me/azginpenguenler')
     .setColor('RANDOM')
     .setFooter(`${message.author.username} tarafından kullanıldı.`)
